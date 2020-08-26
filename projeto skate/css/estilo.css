@@ -199,6 +199,14 @@ iframe{
         width: 80%;
         margin: auto;
     }
+    .col-1{
+        width: 48%;
+    }
+    .col-2-2{
+        width: 40%;
+    }
+
+    /*banner*/
     .lateral-esquerda{
         display: block;
     }
@@ -215,5 +223,15 @@ iframe{
         height: 100%;
         position: fixed;
         right: 0;
+    }
+}
+
+@media screen and (min-width: 78em){
+
+    .col-1{
+        width: 48%;
+    }
+    .col-2-2{
+        width: 42%;
     }
 }
