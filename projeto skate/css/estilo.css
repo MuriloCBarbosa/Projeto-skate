@@ -119,6 +119,7 @@ p{
     margin: 2em;
     padding: 0.8em;
     box-shadow: 1px 1px 5px rgb(146, 146, 146);
+    box-sizing: border-box;
 }
 .noticia h1{
     font-size: 1.6em;
@@ -210,11 +211,11 @@ p{
     }
     .col-1{
         float: left;
-        width: 48%;
+        width: 56%;
     }
     .col-2-2{
         float: right;
-        width: 40%;
+        width: 38%;
     }
     .row1{
         position: absolute;
@@ -223,8 +224,20 @@ p{
         position: absolute;
         bottom: 0;
     }
+    .noticia{
+        margin: 0;
+    }
     .noticia h1{
         font-size: 1.4em;
+    }
+    .noticia-grande{
+        margin: 2em 0.5em 0em 2em;
+    }
+    .noticia-pequena{
+        margin: 2em 2em 0em 0.5em;
+    }
+    .noticia-final{
+        margin-bottom: 2em;
     }
 }
 
@@ -236,10 +249,10 @@ p{
         margin: auto;
     }
     .col-1{
-        width: 48%;
+        width: 56%;
     }
     .col-2-2{
-        width: 40%;
+        width: 38%;
     }
 
     /*banner*/
@@ -260,17 +273,41 @@ p{
         position: fixed;
         right: 0;
     }
+    .noticia{
+        margin: 0;
+    }
+    .noticia-grande{
+        margin: 2em 0.5em 0em 2em;
+    }
+    .noticia-pequena{
+        margin: 2em 2em 0em 0.5em;
+    }
+    .noticia-final{
+        margin-bottom: 2em;
+    }
 }
 
 @media screen and (min-width: 78em){
 
     .col-1{
-        width: 48%;
+        width: 56%;
     }
     .col-2-2{
-        width: 42%;
+        width: 38%;
     }
     .cabecalho-menu a{
         font-size: 1.3em;
+    }
+    .noticia{
+        margin: 0;
+    }
+    .noticia-grande{
+        margin: 2em 0.5em 0em 2em;
+    }
+    .noticia-pequena{
+        margin: 2em 2em 0em 0.5em;
+    }
+    .noticia-final{
+        margin-bottom: 2em;
     }
 }
